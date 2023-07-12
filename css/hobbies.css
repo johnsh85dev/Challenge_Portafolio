@@ -31,15 +31,6 @@
   justify-content: flex-end;
 }
 
-.hobbies__box:hover {
-  scale: 1.2;
-  border: thick solid var(--fuente-azul);
-  border-radius: 5px;
-  align-items: center;
-  justify-content: center;
-  transition: all 300ms ease-in-out;
-}
-
 .hobbies__img {
   font-size: 1.5rem;
   color: var(--fuente-azul);
@@ -64,6 +55,15 @@
   .hobbies__box {
     width: 14rem;
     height: 7.375rem;
+  }
+
+  .hobbies__box:hover {
+    scale: 1.2;
+    border: thick solid var(--fuente-azul);
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    transition: all 300ms ease-in-out;
   }
 }
 

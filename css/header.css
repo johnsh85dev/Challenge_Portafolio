@@ -115,10 +115,10 @@
 }
 
 .profile__menu__item:hover {
-  scale: 1.5;
+  scale: 1.1;
   transition: all 500ms ease-in-out;
   font-weight: bold;
-  color: var(--shadow);
+  text-decoration: underline;
 }
 
 .profile__content__photo {
@@ -223,6 +223,13 @@
 
   .profile__menu__redes {
     width: 60%;
+  }
+
+  .profile__menu__item:hover {
+    scale: 1.5;
+    transition: all 500ms ease-in-out;
+    font-weight: bold;
+    color: var(--shadow);
   }
 
   .menu__list {

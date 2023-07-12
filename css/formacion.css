@@ -26,10 +26,6 @@
   width: 18.5rem;
   height: 7.375rem;
 }
-.academic__courses__box:hover {
-  scale: 1.1;
-  transition: ease-in-out 300ms;
-}
 
 .academic__courses__list {
   width: 18.5rem;
@@ -43,10 +39,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.academic__courses__item__img:hover {
-  border: medium solid var(--fuente-azul);
 }
 
 .academic__courses__item__img__logo--square {
@@ -86,6 +78,15 @@
   .academic__courses__list,
   .academic__courses__item__img {
     width: 14rem;
+  }
+
+  .academic__courses__item__img:hover {
+    border: medium solid var(--fuente-azul);
+  }
+
+  .academic__courses__box:hover {
+    scale: 1.1;
+    transition: ease-in-out 300ms;
   }
 }
 

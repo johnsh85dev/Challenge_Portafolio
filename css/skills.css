@@ -31,15 +31,6 @@
   justify-content: flex-end;
 }
 
-.skills__box:hover {
-  scale: 1.2;
-  border: thick solid var(--fuente-azul);
-  border-radius: 5px;
-  align-items: center;
-  justify-content: center;
-  transition: all 400ms ease-in-out;
-}
-
 .skills__img {
   font-size: 1.5rem;
   color: var(--fuente-azul);
@@ -64,6 +55,15 @@
   .skills__box {
     width: 14rem;
     height: 7.375rem;
+  }
+
+  .skills__box:hover {
+    scale: 1.2;
+    border: thick solid var(--fuente-azul);
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    transition: all 400ms ease-in-out;
   }
 }
 
