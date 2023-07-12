@@ -29,3 +29,5 @@ Es de extrema importancia que el portafolio sea responsivo, lo que quiere decir 
 Extras:
 
 La página debe contener un botón que le permita ver, en una nueva pestaña, una versión PDF de su currículum.
+
+Entra a mi portaoflio aquí:  https://johnsh85dev.github.io/Challenge_Portafolio/
