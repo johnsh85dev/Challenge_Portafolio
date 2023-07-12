@@ -85,7 +85,6 @@
   }
 
   .experience__button--repo:hover {
-    scale: 1.1;
     transition: all 300ms ease-in-out;
     background: var(--shadow);
     color: var(--fuente-blanca);
@@ -97,7 +96,6 @@
   }
 
   .experience__button--demo:hover {
-    scale: 1.1;
     transition: all 300ms ease-in-out;
     background: var(--shadow);
   }
