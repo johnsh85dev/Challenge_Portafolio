@@ -1,0 +1,9 @@
+.footer {
+  width: 100%;
+  height: auto;
+}
+
+.footer__rodapie {
+  text-align: center;
+  font-weight: 500;
+}

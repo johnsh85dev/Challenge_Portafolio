@@ -1,0 +1,45 @@
+:root {
+  --background-principal: #f5f5f5;
+  --background-azul-claro: #eaf2fd;
+  --background-blanco: #ffffff;
+  --shadow: rgba(46, 204, 113, 0.95);
+
+  --fuente-ceniza-oscuro: #464646;
+  --fuente-azul: #2a7ae4;
+  --fuente-blanca: #ffffff;
+  --warning-color: #ff0000;
+}
+
+html {
+  box-sizing: border-box;
+  color: var(--fuente-ceniza-oscuro);
+  background: var(--background-principal);
+  scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.container {
+  padding: 2rem;
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    padding: 2rem 8rem;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .container {
+    padding: 2rem 13rem;
+  }
+}

@@ -1,0 +1,268 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url(../assets/img/banner.jpg);
+  background-size: cover;
+}
+
+.head__content {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 7vh;
+  justify-content: space-between;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background: var(--background-principal);
+  position: fixed;
+  top: 0;
+}
+
+.head {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.head__logo {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.head__title {
+  font-weight: 700;
+  margin-left: 1rem;
+}
+
+.menu {
+  width: 50%;
+}
+
+.menu__list {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu__list__item {
+  display: none;
+  font-weight: 400;
+}
+
+.menu__list__item:hover {
+  text-decoration: underline;
+  scale: 1.2;
+  transition: all 300ms ease-in-out;
+  font-weight: bold;
+}
+
+.menu__list__item--bold {
+  font-weight: 400;
+  font-size: 0.875rem;
+}
+
+.menu__list__item--bold:hover {
+  text-decoration: underline;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+}
+
+.head__profile {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-top: 3rem;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.profile__title {
+  width: 100%;
+  font-size: 1.375rem;
+  font-weight: 700;
+  line-height: 1.614375rem;
+  margin-top: 1rem;
+  color: var(--fuente-blanca);
+}
+
+.profile__about {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1rem;
+  margin-bottom: 1rem;
+  text-align: justify;
+  color: var(--fuente-blanca);
+}
+
+.profile__menu__redes {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile__menu__item {
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+  color: var(--fuente-blanca);
+  font-weight: bold;
+}
+
+.profile__menu__item:hover {
+  scale: 1.5;
+  transition: all 500ms ease-in-out;
+  font-weight: bold;
+  color: var(--shadow);
+}
+
+.profile__content__photo {
+  width: 100%;
+}
+
+.profile__photo {
+  width: 98px;
+  height: 98px;
+  border-radius: 50%;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    flex-direction: row;
+    margin-top: 2rem;
+  }
+
+  .menu__list__item--bold {
+    font-weight: 700;
+    font-size: 1rem;
+  }
+
+  .head__content {
+    width: 100%;
+    margin-left: -2rem;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .head {
+    margin-left: 2rem;
+  }
+
+  .head__toggle {
+    margin-left: 2.5rem;
+  }
+
+  .menu {
+    margin-right: 2rem;
+  }
+
+  .head__profile {
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .profile {
+    width: 70%;
+  }
+
+  .profile__content__photo {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .profile__photo {
+    width: 146px;
+    height: 146px;
+  }
+
+  .profile__menu__redes {
+    width: 76%;
+  }
+
+  .profile__menu__item {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .head__content {
+    margin-left: -8rem;
+  }
+  .head {
+    margin-left: 8rem;
+    width: 30%;
+  }
+
+  .menu {
+    margin-right: 8rem;
+    width: 50%;
+  }
+
+  .profile__title {
+    font-size: 2.25rem;
+    line-height: 2.815625rem;
+  }
+
+  .profile__about {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+
+  .profile__photo {
+    width: 268px;
+    height: 268px;
+  }
+
+  .profile__menu__redes {
+    width: 60%;
+  }
+
+  .menu__list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .menu__list__item {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .profile__title {
+    font-size: 3.25rem;
+    line-height: 3.815625rem;
+  }
+
+  .profile__about {
+    font-size: 1.375rem;
+    line-height: 1.614375rem;
+  }
+
+  .profile__photo {
+    width: 368px;
+    height: 368px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .head__content {
+    margin-left: -13rem;
+    justify-content: center;
+  }
+
+  .head {
+    width: 39%;
+  }
+
+  .menu {
+    width: 39%;
+  }
+}
